@@ -1,5 +1,4 @@
 language: java
 jdk:
   - openjdk15
-script:
- - chmod +x ./gradlew build connectedCheck
+
