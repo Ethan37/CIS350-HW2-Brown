@@ -22,4 +22,14 @@ public class SimpleCalculatorTest {
         SimpleCalculator calc = new SimpleCalculator();
         assertEquals(calc.div(8, 2), 4);
     }
+    @Test
+    public void testMultBy10(){
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.multBy10(15),150);
+    }
+    @Test
+    public void testDivBy10(){
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.divBy10(150),15);
+    }
 }
